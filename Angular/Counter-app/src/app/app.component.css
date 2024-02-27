@@ -1,0 +1,56 @@
+h1{
+    text-decoration:    underline;
+    margin-left: 50px;
+ 
+}
+.counter{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(37, 107, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #D5DEEF;
+    margin-top: 60px;
+}
+p{
+    
+    font-size: 40px;
+    background: linear-gradient(to right bottom,rgb(170, 40, 7) ,rgb(66, 248, 20),rgb(124, 64, 64));
+    color: transparent;
+    background-clip: text;
+    
+}
+p:hover{
+    background: linear-gradient(to right bottom,rgb(170, 40, 7) ,rgb(66, 248, 20));
+    color: transparent;
+    background-clip: text;
+}
+.txt{
+    font-size: 20px;
+    
+}
+.val{
+    font-size: 40px;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(9, 8, 0);
+    background-color:rgb(209, 209, 51) ;
+    margin-top: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color:rgb(238, 238, 126) ;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgb(237, 233, 233);
+}
+.btn:active{
+    background-color:rgb(255, 255, 13) ;
+}

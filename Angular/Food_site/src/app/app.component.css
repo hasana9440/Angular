@@ -1,0 +1,32 @@
+.birayanies,.curries,.Ice-creams{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.main{
+    
+    background-color: #874242;
+    border-radius: 30px;
+}
+.birayanies > app-food{
+    margin-top: 30px;
+   
+}
+h2{
+    color: #200f0f;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: line-through;
+}
+.main:hover >h2 {
+    text-decoration: underline;
+}
+img:hover{
+    width: 10px;
+}
+#dv1{
+    background-color: rgb(55, 91, 91);
+}
+#dv2{
+    background-color: rgb(37, 155, 96);
+}

@@ -1,0 +1,26 @@
+.box{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+input{
+    width: auto;
+    height: 30px;
+    border-radius: 8px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(20, 111, 14);
+}
+.btn:hover{
+    background-color: rgb(23, 139, 15);
+}
+.btn.active{
+    background-color: rgb(39, 233, 25);
+}

@@ -1,0 +1,15 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+img:hover{
+   transition: all .75s ease-out;
+    width: 210px;
+    height: 210px;
+    box-shadow: 0 0 35px rgb(214, 243, 0);
+}
+div{
+    text-align: center;
+}

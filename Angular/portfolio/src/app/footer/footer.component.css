@@ -1,0 +1,14 @@
+p{
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: bisque;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

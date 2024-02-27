@@ -1,0 +1,30 @@
+img{
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+   
+}
+a{
+    color: bisque;
+    text-decoration: none;
+}
+div{
+    height: 100px;
+    background-color: rgb(9, 1, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a:hover{
+    transition: all 1s ease-in-out;
+    text-decoration: underline;
+    transform: scaleX(5deg);
+    color: aqua;
+
+}

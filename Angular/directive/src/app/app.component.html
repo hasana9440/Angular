@@ -1,0 +1,12 @@
+<p>Hi i am {{name}}, welcome to my world</p>
+<div *ngFor="let p of food" title="Food">
+    <h1>Name : {{p.name}}</h1>
+    <h2>Price : {{p.price}}</h2>
+    <img src="{{p.url}}">
+</div>
+<app-dummy [name]=name [age]=age></app-dummy>
+<div *ngFor="let m of movie" title="Movie">
+  <h1>Name : {{m.name}}</h1>
+  <h2>Price : {{m.director}}</h2>
+  <img src="{{m.url}}">
+</div>

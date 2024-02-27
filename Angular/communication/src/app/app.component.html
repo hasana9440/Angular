@@ -1,0 +1,14 @@
+<app-header [count]=count></app-header>
+<div class="btn-head">
+  <button class="btn" (click)="incr()">Add to cart</button>
+  <button class="btn1" (click)="reset()">Reset</button>
+
+</div>
+<div>
+    <app-book [book] = book1 [title]= title1></app-book>
+    <app-book [book] = book2 [title]= title2></app-book>
+    <app-book [book] = book3 [title]= title3></app-book>
+    <app-book [book] = book4 [title]= title4></app-book>
+    <app-book [book] = book5 [title]= title5></app-book>
+</div>
+<app-footer></app-footer>

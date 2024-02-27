@@ -1,0 +1,20 @@
+<h1>My components</h1>
+<input type="text" placeholder="Enter a value.." id="ip"><br>
+<button (click)="fun()">Click Me</button>
+{{val}}
+
+<input type="text" placeholder="Enter " [(ngModel)]="x">
+{{x}}
+
+<button (click)="mode()">Change mode</button>
+
+<div class="box" >
+  <input type="text" [(ngModel)]="name" placeholder="Enter name"><br><br>
+  <input type="email" [(ngModel)]="em" placeholder="Enter email">
+  <br><br>
+  <button (click)="sub()" class="btn"> Submit</button>
+</div>
+<div class="box">
+ <p>Name is  : {{name}}</p>
+ <p>Email is : {{em}}</p>
+</div>
