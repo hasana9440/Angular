@@ -1,0 +1,24 @@
+<!-- 
+<h1>Crud Application</h1>
+<button (click)="add()">Add</button>
+<div class="books">
+    <button (click)="stop()"  style="float: right;">❎</button><br><br>
+    <label for="id">ID : </label>
+    <input type="number" placeholder="Enter Id" name="id"><br><br>
+    <label for="bname">Book Name : </label>
+    <input type="text" placeholder="Enter Book Name" name="bname"><br><br>
+    <label for="url">Img URl : </label>
+    <input type="text" placeholder="Enter Book Image link" name="url"><br><br>
+    <button (click)="submit()" >{{editMode ? 'update':'submit'}}</button>
+</div>
+-->
+<button><a  routerLink="form">Add</a></button>
+<router-outlet></router-outlet>
+<div class="box">
+    <div class="books" *ngFor="let b of books">
+        <img src="{{b.image}}" alt="" style="width: 50px; height: 50px;">
+        <p>{{b.title}}</p>
+        <button class="btn" (click)="remove(b.id)">Remove ❌</button>
+        <button class="btn">Update 🖋️</button>
+    </div>
+</div>

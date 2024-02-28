@@ -1,0 +1,14 @@
+Forms : 
+angular provide 2 kinds of Forms
+    1)Template driven Forms
+    2)reactive forms
+Template friven forms are default forms in-built in angular,they were implemented in Template
+
+WHEN WE WRITE NGmODEL TO ANY INPUT ELEMENT ,IT CREATES An instance of formcontrol and it will give default values like 
+dirty:if value of input field changed then dirty will become true
+pristine:if the value is not changed in nput field then pristain will be true 
+valid:
+invslid:
+touched: If you just touch /activate the input once then touched will become true
+untouched:
+errors:

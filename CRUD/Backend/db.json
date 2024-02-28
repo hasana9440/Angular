@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "happy-world-book",
+      "image": "https://img.freepik.com/free-vector/happy-world-book-day-with-open-book_23-2148477409.jpg?t=st=1709090758~exp=1709094358~hmac=e5f87b8da9b88d98cb48024bf246d4b3664502454f22b2066777e45d4680d46f&w=740"
+    },
+    {
+      "id": "2",
+      "title": "book-2",
+      "image": "https://img.freepik.com/premium-photo/wonderful-open-book-world-inside-imagination-fantasy-magic-literature-concept-generative-ai_779468-5974.jpg?w=996"
+    },
+    {
+      "id": "3",
+      "title": "book-3",
+      "image": "https://img.freepik.com/premium-vector/colorful-yoga-with-lotus-logo_97365-197.jpg?w=740"
+    },
+    {
+      "id": "4",
+      "title": "book-4",
+      "image": "https://img.freepik.com/free-vector/flat-world-book-day-landing-page-template_23-2149308055.jpg?t=st=1709090894~exp=1709094494~hmac=382c50a8b647c75933e5a47256e6b1e1cd7c7efbeda0ec62e95d862cc84944d3&w=996"
+    }
+  ]
+}
