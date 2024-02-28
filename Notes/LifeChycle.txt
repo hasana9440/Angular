@@ -1,0 +1,20 @@
+Life cycle : 
+    -> we all have our life cycle -> todler,child,teen,young,old
+    -> Similarly component also have lifecycle.
+    -> when a component initiated or component rendered or component appeared in view or component got changed or component destroyed
+    ->any component first calls its constructor  because it is class but only one time
+DOM:
+             contentDOM vs VIEWDOM
+    -> contentDOM is exact html template before applying anguar techniques
+    -> eg:<div>my name is {{name}}</div>
+    View DOM is html template which appeared in browser after angular techniques applied
+
+1. ngOnChnages : 
+    ->
+2. ngOnInit : 
+3. ngDocheck:
+4. ngAfterContentInit :
+5. ngaftercontentchecked : 
+6. AfterviewInit:
+7. AfterviewChecked : 
+8. ngOnDestroy :            
