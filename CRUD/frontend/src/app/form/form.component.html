@@ -1,5 +1,8 @@
 <br><br>
-Id : <input type="number" placeholder="Enter Id"><br><br>
-Book Name : <input type="text" placeholder="Enter book name"><br><br>
-Book URL : <input type="text" placeholder="Enter Book Url"><br><br>
-<button (click)="done()">Submit</button>
+<form #fm="ngForm" (ngSubmit)="done(fm)" >
+    Id : <input type="number" placeholder="Enter Id"><br><br>
+    Book Name : <input type="text" placeholder="Enter book name"><br><br>
+    Book URL : <input type="text" placeholder="Enter Book Url"><br><br>
+
+</form>
+<button type="submit">Submit</button>

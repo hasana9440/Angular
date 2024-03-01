@@ -1,6 +1,4 @@
-p{
-    
-}
+
 
 footer{
     background-color: black;
@@ -8,7 +6,8 @@ footer{
     color: bisque;
     position: absolute;
     margin-bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    width: 205vh;
+    border-radius: 20px;
+    margin-top: 10px;
+    
 }

@@ -17,6 +17,6 @@ export class DataService {
       return this.http.post(`http://localhost:3000/books`,data);
   }
   putData(data:any,id:number){
-      return this.http.put(`http://localhost:3000/books${id}`,data);
+      return this.http.put(`http://localhost:3000/books/${id}`,data);
   }
 }

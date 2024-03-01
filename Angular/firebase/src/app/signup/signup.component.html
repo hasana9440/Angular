@@ -1,0 +1,12 @@
+<div class="box">
+    <H1>Sign Up</H1>
+    <form #fm="ngForm" (ngSubmit)="submit(em,pwd,fm)">
+        <label for="email">E - mail : </label>
+        <input type="email" name="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" ngModel #em="ngModel" placeholder="Enter email"  name="email"><br>
+        <div class="error" *ngIf="(fm.submitted || em.touched) && em.errors?.['pattern']">Email must be correct</div>
+        <label for="pwd">Password : </label>
+        <input type="password" name="password" ngModel #pwd="ngModel" minlength="8" maxlength="12" placeholder="Enter password" name="pwd"><br><br>
+        <div class="error" *ngIf="(fm.submitted || pwd.touched) && pwd.errors?.['minlength']">Minimum 8 character must be included</div>
+        <button type="submit">click me</button>
+    </form>
+</div>

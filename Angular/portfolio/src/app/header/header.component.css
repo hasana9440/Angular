@@ -2,12 +2,15 @@ img{
     width: 70px;
     height: 70px;
     margin: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px yellow;
 }
 ul{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     list-style: none;
+    margin-right: 10px;
    
 }
 a{
@@ -16,8 +19,9 @@ a{
 }
 div{
     height: 100px;
-    background-color: rgb(9, 1, 9);
+    background: linear-gradient(to right,rgb(255, 232, 204),rgb(138, 138, 23));
     display: flex;
+    border-radius: 20px;
     align-items: center;
     justify-content: space-between;
 }

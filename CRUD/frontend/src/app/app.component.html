@@ -1,18 +1,32 @@
-<!-- 
+
 <h1>Crud Application</h1>
 <button (click)="add()">Add</button>
-<div class="books">
-    <button (click)="stop()"  style="float: right;">❎</button><br><br>
+<div class="books" *ngIf="showform">
+    <button (click)="stop()"  style="float: right;" >❎</button><br><br>
     <label for="id">ID : </label>
-    <input type="number" placeholder="Enter Id" name="id"><br><br>
+    <input type="number" placeholder="Enter Id" name="id" [(ngModel)]="bookid"><br><br>
     <label for="bname">Book Name : </label>
-    <input type="text" placeholder="Enter Book Name" name="bname"><br><br>
+    <input type="text" placeholder="Enter Book Name" name="bname" [(ngModel)]="bookname"><br><br>
     <label for="url">Img URl : </label>
-    <input type="text" placeholder="Enter Book Image link" name="url"><br><br>
+    <input type="text" placeholder="Enter Book Image link" name="url" [(ngModel)]="url"> <br><br>
     <button (click)="submit()" >{{editMode ? 'update':'submit'}}</button>
 </div>
--->
-<button><a  routerLink="form">Add</a></button>
+
+<div class="display">
+    <div class="display1" *ngFor="let b of books;">
+        <img src="{{b.image}}">
+        <p>{{b.title}}</p>
+    
+    <div class="btnz">
+        <button (click)="remove(b.id)">remove ❌</button>
+        <button (click)="update(b.id)">update 🖋️</button>
+    </div>
+    </div>
+</div>
+
+
+<!--
+<button ><a routerLink="form">Add</a></button>
 <router-outlet></router-outlet>
 <div class="box">
     <div class="books" *ngFor="let b of books">
@@ -22,3 +36,5 @@
         <button class="btn">Update 🖋️</button>
     </div>
 </div>
+
+-->

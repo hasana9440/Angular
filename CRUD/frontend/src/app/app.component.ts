@@ -19,7 +19,7 @@ export class AppComponent {
     });
  }
  add(){
-  this.showform = true;
+    this.showform = true;
     document.body.style.backgroundColor='rgba(0,0,0,0.4)';
  }
 
@@ -40,8 +40,9 @@ export class AppComponent {
     this.ds.putData(newbook,this.bookid).subscribe((data)=>{
       console.log('this is edit');
       console.log(data);
-      this.showform=false;
       window.location.reload();
+      this.showform=false;
+      
     })
   }
   else{
@@ -55,7 +56,7 @@ export class AppComponent {
     this.ds.postData(newbook).subscribe((data)=>{
       console.log(data);
       console.log("this is submit1 ")
-      //window.location.reload();
+      window.location.reload();
       this.stop()
     });
     //console.log("this is submit ")
@@ -69,5 +70,13 @@ export class AppComponent {
      window.location.reload();
     })
    }
+ }
+ update(id:number){
+  let msg = confirm("Are You sure want change ?");
+  if(msg){
+    console.log(id);
+    this.editMode=true;
+    this.showform=true;
+  }
  }
 }

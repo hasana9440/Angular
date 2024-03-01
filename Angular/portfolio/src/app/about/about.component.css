@@ -1,0 +1,50 @@
+*{
+    
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    width: auto;
+    background-image: url(https://img.freepik.com/free-photo/portrait-handsome-young-smiling-afro-man-wearing-glasses-smiling-standing-with-open-hand-gesture-isolated-beige-wall_158595-7632.jpg?t=st=1709117680~exp=1709121280~hmac=3805731a86a68209c78662759318595523703fe77e93586582cdbde6978fcd42&w=996);
+    padding: 20px;
+    background-size: cover;
+    height: auto;
+    display: grid;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+h1{
+    text-decoration: underline;
+    padding: 5px;
+}
+h3{
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro{
+    width: 600px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+   /* margin-left: 55%*/
+}
+.emp{
+    width: 600px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+   /* margin-left: 55%; */
+    
+}
+.lrn{
+    width: 600px;
+    background-color: aqua;
+    border-radius: 10px;
+    /*margin-left: 55%; */
+    padding: 10px;
+     margin-top: 40px; 
+}
